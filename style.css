@@ -1,0 +1,69 @@
+.container {
+  margin: auto;
+  width: 800px; 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+/* start name input */
+
+.Name-container > label{
+  display: block;
+}
+
+.inside-container {
+  width: 400px;
+  display: flex;
+  background-color: #999;
+}
+
+.inside-container input{
+  
+  flex-grow: 1;
+}
+/* end name input */
+
+/* start price input */
+
+.Price-container > label{
+  display: block;
+}
+
+.inside-container2 {
+  display: flex;
+  background-color: #eee;
+}
+
+.inside-container2 span{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.inside-container2 input {
+  flex-grow: 1;
+}
+/* end price input  */
+
+/* start handle input */
+
+.Handle-container > label{
+  display: block;
+}
+
+.inside-container3 {
+  background-color: #eee;
+  display: flex;
+}
+
+.inside-container3 input {
+  flex-grow : 1;
+}
+
+.inside-container3 span{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
